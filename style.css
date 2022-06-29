@@ -87,11 +87,9 @@ b{
 	display: block;
 }
 .vk_auth{
-	position: relative;
-	display: block;
-	hight: 50px;
-	width: 90%;
-	margin: 1%;
+	width: 90% !important;
+	margin: 5%;
+
 }
 .start{
 	display: block;
