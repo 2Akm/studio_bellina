@@ -21,6 +21,11 @@ b{
 	border: 3px #002060 solid;
 	padding: 10px;
 }
+.vk_auth{
+	width: 90% !important;
+	margin: 5%;
+
+}
 #window h1{
 	display: inline-block;
 	position: relative;
