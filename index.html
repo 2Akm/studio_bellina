@@ -211,21 +211,21 @@
 		<input type="input" name="username">
 		<h3>Пароль</h3>
 		<h3 style="color: #777; text-align: right;">Забыли пароль?</h3>
-			<div class="vk_auth">
 		<input type="input" name="password">
-				<input type="button" name="enter" value="Войти">
+		<input type="button" name="enter" value="Войти">
+		<div class="vk_auth">
 			<script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
 <script type="text/javascript">
   VK.init({apiId: 8207071});
-	</div>
 </script>
 
 <!-- VK Widget -->
-<div id="vk_auth">
+<div id="vk_auth"></div>
 <script type="text/javascript">
-  VK.Widgets.Auth("vk_auth", {"width":400, "height": 50, "authUrl":"/dev/Login"});
+  VK.Widgets.Auth("vk_auth", {"width":450,"authUrl":"/dev/Login"});
 </script>
-				</div></div>
+		</div>
+		</div>
 	</div>
 	<!--Футер-->
 	<section class="footer">
