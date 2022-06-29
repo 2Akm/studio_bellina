@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>О компании</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="RESET.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylemobile.css">
+</head>
+<body>
+	<a href="#"><button class="start">^</button></a>
+	<section class="left_menu">
+		<div class="head_menu">
+			<img src="menu2.png" onclick="HideMenu()">
+			<p>Меню</p>
+		</div>
+		<a href="index.html"><button>Главная</button></a>
+		<a href="about_company.html"><button>О компании</button></a>
+		<a href="projects.html"><button>Проекты</button></a>
+		<a href="services.html"><button>Услуги</button></a>
+		<a href="team.html"><button>Команда</button></a>
+		<a href="contacts.html"><button>Контакты</button></a>
+		<a href="politics.html"><button>Политика</button></a>
+		<button class="left_menu_ask" style="color: white; background-color: #002060; text-align: center;">Оставить заявку</button>
+		<input type="button" name="close_menu" class="close_menu" value="╳ Закрыть" onclick="HideMenu()">
+	</section>
+	<header>
+		<img src="menu.png" onclick="DisplayMenu()" class="menu">
+		<p>Меню</p>
+		<input type="button" class="sign_in" name="sign_in" align="right" value="Войти" onclick="open_window();">
+	</header>
+	<section class="section_header">
+		<h1 class="title_head">О компании</h1>
+	</section>
+	<section>
+		<div class="line_menu">
+			<a href="index.html"><input type="button" name="main" value="Главная"></a>
+			<a href="about_company.html"><input type="button" name="main" value="О компании"></a>
+			<a href="team.html"><input type="button" name="main" value="Команда"></a>
+			<a href="services.html"><input type="button" name="main" value="Услуги"></a>
+			<a href="reviews.html"><input type="button" name="main" value="Отзывы"></a>
+			<a href="contacts.html"><input type="button" name="main" value="Контакты"></a>
+		</div>
+	</section>
+	<section class="about_me">
+		<div class="about_me_inside" style="width: 25%;">
+			<img src="franchesco.png">
+		</div>
+		<div class="about_me_inside" style="width: 73%;">
+			<p>Меня зовут Франческо Беллина, и я занимаюсь управлением кондоминиумами и недвижимостью. Я профессионал-новатор, который использует потенциал современных технологий в пользу клиента, оказывая ему быструю и своевременную помощь с особым вниманием к его потребностям. Мне нравится называть себя полной эталонной фигурой, на которую я могу рассчитывать, чтобы управлять каждым аспектом собственности; от администрации кондоминиума, до управления арендой, до ремонта, до поиска квартиры для жилого или коммерческого использования, до технической помощи и многого другого.
+</p>
+		</div>
+	</section>
+	<section class="abilities">
+		<div class="ability_card1">
+			<div class="inside" style="width: 29%;"><img src="about_1.png"></div>
+			<div class="inside" style="width: 69%;"><p><b>поиск квартиры или помещения для коммерческого использования</b><br><br>
+найти недвижимость, которая соответствует вашим потребностям, без необходимости довольствоваться не просто подвиг. доверив эту задачу профессионалу, вы не только получите индивидуальное решение, но и избежите непредвиденных обстоятельств.
+</p></div>
+		</div>
+		<div class="ability_card1" style="background-color: white; color: black;">
+			<div class="inside" style="width: 69%;"><p><b>управление арендной платой</b><br><br>
+владение недвижимостью в аренду должно быть богатством, а не проблемой. я могу позаботиться о каждой детали, от поиска подходящего арендатора до заключения
+договора аренды, надлежащего управления ежемесячным доходом до возврата имущества.
+</p></div>
+	<div class="inside" style="width: 29%;"><img src="about_2.png"></div>
+		</div>
+		<div class="ability_card1">
+			<div class="inside" style="width: 29%;"><img src="about_3.png"></div>
+			<div class="inside" style="width: 69%;"><p><b>Superbonus 110-ремонт (90%-50%) - мероприятия по реклассификации энергии, бонусы фасадов</b><br><br>
+благодаря экспертной сети технических специалистов и консультантов, я организую бесплатный осмотр, чтобы проверить, есть ли у вас необходимые требования для доступа к предоставленным налоговым бонусам, предоставляя вам техническую и налоговую помощь, поставщиков строительных услуг и следуя шаг за шагом до завершения работ.
+</p></div>
+		</div>
+	</section>
+	<section class="abilities" style="height: 300px;">
+		<hr style="background-color: #4472c4;">
+		<h1>Заинтересовались?</h1>
+		<p class="p_ab">С нашими сотрудниками мы сможем воплотить все ваши мечты.<br> Studio Bellina - мечты сбываются!</p>
+		<input type="button" name="j" value="Связаться с нами" class="learn_more learn_more_mobile" style="margin-left: 50%; width: 40%;">
+	</section>
+	<!--Вход-->
+	<div id="window">
+		<div>
+		<button onclick="close_window()">╳ Закрыть</button>
+		<h1>Studio Bellina</h1>
+		<h2>Войдите, чтобы продолжить на Studio Bellina</h2>
+		<h3 style="width: 100%;">Имя пользователя</h3>
+		<input type="input" name="username">
+		<h3>Пароль</h3>
+		<h3 style="color: #777; text-align: right;">Забыли пароль?</h3>
+		<input type="input" name="password">
+		<h3 style="width: 60%;">Запомнить меня</h3>
+		<input type="checkbox" name="remember">
+		<input type="button" name="enter" value="Войти">
+		</div>
+	</div>
+	<!--Футер-->
+	<section class="footer">
+		<div class="foot_block">
+			<table>
+				<tr>
+					<td>
+						<h2>Наш дом</h2>
+						<p>Viale Padre G. B.<br>Aguggiari,  17<br>21100 Varese</p>
+						<a href="#"><p>Посмотреть на картах Google</p></a>
+					</td>
+					<td>
+						<h2>Соц сети</h2>
+						<a href="#"><img src="1.png"></a>
+						<a href="#"><img src="2.png"></a>
+						<a href="#"><img src="3.png"></a><br>
+						<a href="#"><img src="4.png"></a>
+						<a href="#"><img src="5.png"></a>
+						<a href="#"><img src="6.png"></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>Ссылки</h2>
+						<a href="#" class="sourses">Главная &nbsp |</a>
+						<a href="#" class="sourses">О нас</a><br><br>
+						<a href="#" class="sourses">Проекты &nbsp |</a>
+						<a href="#" class="sourses">Контакты</a>
+					</td>
+					<td>
+						<h2>Контакты</h2>
+						<a href="#" class="sourses">amministrazionebellina@gmail.com</a><br><br>
+						<a href="#" class="sourses">+39 351 6817266</a>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="foot_block">
+			<h2 style="margin-top: 18%;">Список рассылки</h2>
+			<p>Будьте в курсе всех последних новостей и контента</p>
+			<input type="input" name="em" value="Введите адрес электронной почты">
+			<button>></button>
+		</div>
+		<div class="foot_bottom">
+			<br>
+			<p>Все права защищены.  Франческо Беллина | P.iva 03788790123 Powered by </p>
+		</div>
+		<div class="foot_bottom2">
+			<br>
+			<a href="#">Cookie Policy -  Privacy Policy</a>
+		</div>
+
+	</section>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
